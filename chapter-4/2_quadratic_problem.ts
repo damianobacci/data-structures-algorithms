@@ -13,7 +13,7 @@ function hasDuplicateValueQuadratic(array: number[]): boolean { // this function
 }
 
 function hasDuplicateValueLinear(array: number[]): boolean { // This function has efficiency O(N), because we are only running comparisons through one loop
-    let existingNumbers: (number | undefined)[] = [] // will be something like [undefined, 1, undefined, undefined, 1], where "1" marks the if the number in that index has been seen
+    let existingNumbers: (number | undefined)[] = [] // will be something like [undefined, 1, undefined, undefined, 1], where "1" marks the place if the number in that index has been seen
     for (let i = 0; i < array.length; i++) {
         if (existingNumbers[array[i]] === 1) {
             return true
