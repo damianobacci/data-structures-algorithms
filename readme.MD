@@ -1,6 +1,6 @@
 # A Common Sense Guide to Data Structures and Algorithms by Jay Wengrow
 
-Exercises, examples, plus a webapp to learn and play.
+Exercises, examples, plus a webapp to learn and play with interactive widgets and Manim animations.
 
 ## Run the webapp using Docker
 
